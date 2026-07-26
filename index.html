@@ -243,34 +243,11 @@ color:#777;
         line-height:1.35;
     }
 
-    .cica,
-    .peneszes,
-    .repa,
-    .nyul,
-    .katica,
-    .szolo,
-    .ful,
-    .gomba,
-    .golyo,
-    .doboz,
-    .segitseg,
-    .ujj,
-    .eger,
-    .hal,
-    .suni,
-    .anna,
-    .taska,
-    .mano,
-    .ceruza,
-    .malnaes_szeder{
-        background-size:100%;
-    }
-
-}
     @media (max-width:600px){
 
     main{
         width:100%;
+        margin:20px 0;
     }
 
     .poem{
@@ -279,7 +256,16 @@ color:#777;
         transform-origin:top center;
         margin-left:auto;
         margin-right:auto;
-        margin-bottom:-50%;
+
+        /* a zsugorítás után ne csússzanak össze */
+        margin-bottom:-45%;
+    }
+
+}
+    @media (max-width:600px){
+
+    header{
+        width:100%;
     }
 
 }
