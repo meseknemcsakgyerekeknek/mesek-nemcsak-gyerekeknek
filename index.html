@@ -194,36 +194,32 @@ color:#777;
         background-size: 900px;
     }
     
-    @media (max-width: 600px) {
+    @media (max-width:600px){
+
+    body{
+        overflow-x:hidden;
+    }
 
     header{
-        width:100%;
-        text-align: center;
-        padding:35px 15px;
+        width:900px;
+        transform:scale(0.42);
+        transform-origin:top center;
+        position:relative;
+        left:50%;
+        margin-left:-450px;
     }
 
-    header h1{
-        font-size:38px;
-    }
-
-    header p{
-        font-size:20px;
-    }
-
-    .poem{
-        padding:12px;
-        margin-bottom:20px;
-        
-    }
-     main{
+    main{
         width:900px;
         max-width:none;
-        transform:translateX(-50%) scale(0.42);
+        transform:scale(0.42);
         transform-origin:top center;
-         position: relative;
+        position:relative;
         left:50%;
+        margin-left:-450px;
     }
-    }
+
+}
 </style>
 
 </head>
