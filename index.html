@@ -1,702 +1,242 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Simon Annamária: Mesék nemcsak gyerekeknek</title>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&display=swap" rel="stylesheet">
+
+<title>Mesék nemcsak gyerekeknek</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
 <style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-}
 
 body{
-    overflow-x: hidden;
-background:#f5f1e8;
-font-family:Georgia, serif;
-color:#2f2f2f;
-line-height:1.7;
-    width: 100%;
+    margin:0;
+    background:#1F3A5F;
+    font-family:Georgia, serif;
+    color:#333;
 }
 
 header{
-background-image:url("kepek/headerrr.jpg");
-color:#405563;
-text-align:center;
-padding:50px 20px;
-}
-
-header h1{
-    font-family: "Cormorant Garamond", serif;
-font-size:54px;
-margin-bottom:14px;
-    letter-spacing: 2px;
-}
-
-header p{
-color:#405563;
-font-size:28px;
-}
-
-main{
-width:90%;
-max-width:900px;
-margin:50px auto;
-}
-
-.poem{
-background:white;
-padding:40px 40px 100px 40px;
-margin-bottom:40px;
-border-radius:12px;
-box-shadow:0 10px 25px rgba(0,0,0,.08);
-}
-
-.poem h2{
-text-align:center;
-margin-bottom:25px;
-font-size:29px;
-    font-family:"Cormorant Garamond", serif;
-}
-
-.poem-content{
-white-space:pre-line;
-text-align:left;
-font-size:18px;
-}
-
-footer{
-text-align:center;
-padding:40px;
-color:#777;
-}
-    .malnaes_szeder{
-        background-image: url(kepek/szedermalna.png);
-        background-repeat: no-repeat;
-        background-position: left top;
-        background-size: 900px;
-    }
-    .cica{
-        background-image: url(kepek/cicaaa.png);
-        background-repeat: no-repeat;
-        background-position: right bottom;
-        background-size: 850px;
-    }
-    .peneszes{
-        background-image: url(kepek/peneszes.png);
-        background-repeat: no-repeat;
-        background-position: right top;
-        background-size: 905px;
-    }
-    .ceruza{
-        background-image: url(kepek/ceruzaa.png);
-        background-repeat: no-repeat;
-        background-position: right top;
-        background-size: 1070px;
-    }
-    .repa{
-        background-image: url(kepek/repa2.png);
-        background-repeat: no-repeat;
-        background-position: right top;
-        background-size: 900px;
-    }
-    .mano{
-        background-image: url(kepek/manoooo.png);
-        background-repeat: no-repeat;
-        background-position: right bottom;
-        background-size: 1200px;
-    }
-    .anna{
-        background-image: url(kepek/anna.png);
-        background-repeat: no-repeat;
-        background-position: left top;
-        background-size: 900px;
-    }
-    .taska{
-        background-image: url(kepek/taskaa.png);
-        background-repeat: no-repeat;
-        background-position: left top;
-        background-size: 900px;
-    }
-    .nyul{
-        background-image: url(kepek/nyul.png);
-        background-repeat: no-repeat;
-        background-position: left bottom;
-        background-size: 900px;
-    }
-    .katica{
-        background-image: url(kepek/katicaa.png);
-        background-repeat: no-repeat;
-        background-position: left top;
-        background-size: 900px;
-    }
-     .szolo{
-        background-image: url(kepek/szolo.png);
-        background-repeat: no-repeat;
-        background-position: left top;
-        background-size: 900px;
-    }
-    .ful{
-        background-image: url(kepek/ful.png);
-        background-repeat: no-repeat;
-        background-position: left bottom;
-        background-size: 900px;
-    }
-    .gomba{
-        background-image: url(kepek/gomba.png);
-        background-repeat: no-repeat;
-        background-position: right bottom;
-        background-size: 900px;
-    }
-    .golyo{
-        background-image: url(kepek/golyo.png);
-        background-repeat: no-repeat;
-        background-position: right top;
-        background-size: 900px;
-    }
-     .doboz{
-        background-image: url(kepek/doboz.png);
-        background-repeat: no-repeat;
-        background-position: right top;
-        background-size: 900px;
-    }
-     .segitseg{
-        background-image: url(kepek/csillag.png);
-        background-repeat: no-repeat;
-        background-position: right top;
-        background-size: 900px;
-    }
-    .ujj{
-        background-image: url(kepek/ujj.png);
-        background-repeat: no-repeat;
-        background-position: right bottom;
-        background-size: 900px;
-    }
-    .eger{
-        background-image: url(kepek/eger.png);
-        background-repeat: no-repeat;
-        background-position: right bottom;
-        background-size: 900px;
-    }
-    .hal{
-        background-image: url(kepek/viz.png);
-        background-repeat: no-repeat;
-        background-position: right top;
-        background-size: 900px;
-    }
-    .suni{
-        background-image: url(kepek/suni.png);
-        background-repeat: no-repeat;
-        background-position: right bottom;
-        background-size: 900px;
-    }
-    
-    @media (max-width:600px){
-
-    body{
-        overflow-x:hidden;
-    }
-    header{
-    width:100%;
-    transform:none;
-    position:static;
-    margin:0;
-    padding:35px 15px;
+    background-size:cover;
+    background-position:center;
+    padding:100px 20px;
     text-align:center;
 }
 
 header h1{
-    font-size:38px;
+    font-family:"Cinzel decorative", serif;
+    font-weight: 400;
+    font-size:85px;
+    margin-bottom:15;
+    margin-top: 20px;
+    letter-spacing:-1px;
+    line-height: 70px;
+    padding-top: 15px;
+    height: auto;
+    color: transparent;
+background: linear-gradient(
+    40deg,
+    #6B4423,
+    #A67C52,
+    #D2A679,
+    #8C5A32,
+    #B87333
+);
+-webkit-background-clip: text;
+background-clip: text;
 }
 
-header p{
-    font-size:20px;
-    }
-    main{
-        width:880px;
-        max-width:none;
-        transform:scale(0.38);
-        transform-origin:top center;
-        position:relative;
-        left:50%;
-        margin-left:-441px;
-        margin-bottom: -58%;
-    }
-        .ceruza{
-            background-size: auto 100%;
-         background-position: 97% top;
-        }
+header h2{
+    font-family:"IM Fell English", serif;
+    font-size:36px;
+    font-weight:normal;
+    margin-top:20px;
+    margin-bottom: auto;
+    padding: 10px; 5px;
+    color: transparent;
+background: linear-gradient(
+    45deg,
+    #6B4423,
+    #A67C52,
+    #D2A679,
+    #8C5A32,
+    #B87333
+);
+-webkit-background-clip: text;
+background-clip: text;
 }
+
+main{
+    width:90%;
+    max-width:900px;
+    margin:30px auto;
+}
+
+.welcome{
+
+    padding:5px;
+
+    text-align:center;
+}
+
+.quote{
+
+    font-family:"IM Fell English", serif;
+
+    font-size:20px;
+
+    line-height:1.5;
+
+    margin-bottom:30px;
+    color: transparent;
+background: linear-gradient(
+    45deg,
+    #6B4423,
+    #A67C52,
+    #D2A679,
+    #8C5A32,
+    #B87333
+);
+-webkit-background-clip: text;
+background-clip: text;
+
+}
+.book-frame{
+    border:1px solid #B87333;
+    outline:1px solid rgba(184,115,51,0.4);
+    outline-offset:-10px;
+    margin:50px auto;
+    padding:20px;
+    max-width: 1400px;
+}
+
+.menu{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+}
+
+.menu a{
+font-family:"IM Fell English", serif;
+    text-decoration:none;
+
+   color: transparent;
+background: linear-gradient(
+    45deg,
+    #6B4423,
+    #A67C52,
+    #D2A679,
+    #8C5A32,
+    #B87333
+);
+-webkit-background-clip: text;
+background-clip: text;
+
+    margin-bottom: 20px;
+    margin-top: 5px;
+
+    font-size:25px;
+
+    transition:.3s;
+
+    border: 1px solid #B87333;
+    border-radius: 1px;
+    padding: 12px 32px;
+    transition: .3s;
+}
+
+.menu a:hover{
+
+    transform:translateY(-6px);
+    border-color:#E0B77A;
+    
+
+}
+
+footer{
+
+    text-align:center;
+
+    padding:50px;
+
+    color:#777;
+
+    font-size:18px;
+
+}
+    h1 span {
+        font-size: 0.6em;
+        font-style: 
+    }
+
 </style>
 
 </head>
 
 <body>
     
+    <div class="book-frame">
+
 <header>
-<h1>Simon Annamária</h1>
-    
-<p>Mesék nemcsak gyerekeknek</p>
+
+<h1>
+     Mesék<br>
+    <span>nemcsak</span><br>
+    gyerekeknek
+    </h1>
+
+<h2>Simon Annamária</h2>
+
 </header>
 
 <main>
+    
+    <div class="menu">
 
-<!-- VERS 1 -->
+<a href="mesek.html">Mesék</a>
 
-<section class="poem cica">
-
-<h2>A rakoncátlan kiscica</h2>
-
-<div class="poem-content">
-
-Egyszer volt, hol nem volt, egy kiscica, mikor született már akkor is fújt a világra. Zöld szemei mérgesen villogtak, senkinek sem engedte, hogy megsimogassa: karmolt, harapott, ahol csak tudott. Hamar otthagyta anyját is, járta az utcákat, egyedül kóborolt. 
-Kivételesen szép cica volt, az emberek meglátták, és rögtön dajkálni szerették volna, de az édes kis szőrgombolyag abban a pillanatban vicsorgó, köpködő csapássá változott. Egy idő után mindenki messziről elkerülte. Élt ebben az utcában egy bátor kisegér. Bátorsága utcaszerte híres volt. Elhatározta, hogy majd ő megszelídíti ezt a vadmacskát. Elindult hát és hamar rá is akadt a szemeteskukák között. Finom falatot talált a macska és úgy el volt foglalva az evéssel, hogy nem vette észre a közeledő egérkét.
-A bátor kisegér végigszaladt a macska farkán, fel a hátán a füle tövéig. A macska az érintésre megmerevedett, moccanni sem tudott a meglepetéstől. Egész eddigi életében nem érintette meg senki! Az egér lábacskáival vakargatni kezdte a macska nyakát, aki jóízűen és hálásan dorombolt. Nem tudott ellenállni, a boldogság feltöltötte, melengette lényét. Az egeret kitüntették arany sajtérdem renddel, és peckesen járkált az utcán, oldalán újdonsült barátjával. 
-A segítség gyakran váratlanul, nem várt formában érkezik, és egy érintés mindent megváltoztathat. Ne mulasszátok el megérinteni a másikat, ha morcos és kiabál is, ez a leghőbb vágya. Még ha nem is tud róla. Vagy nem meri bevallani.
+<a href="versek.html">Versek</a>
+        
+<a href="novellak.html">Novellák</a>
 
 </div>
 
-</section>
+<div class="welcome">
 
-<!-- VERS 2 -->
+<div class="quote">
 
-<section class="poem peneszes">
-
-<h2>A penész</h2>
-
-<div class="poem-content">
-
-Ki szereti a penészt? Senki! A penész is így gondolta: őt senki sem szereti.
-Egyre bánatosabb és bánatosabb lett. Egy idő után hiába bizonygatták penésztársai, hogy ők szeretik, már meg sem hallotta őket. Azelőtt vidáman nevetgéltek, de egyszer meghallotta miket mond róluk az ember:
-- Fúúúj! Penész! Undorító, el kell tüntetnem innen. Gusztustalan, blaa.
-A penész nagyon magára vette ezt, pedig előtte soha nem volt semmi baja saját magával. A világot és benne önmagát tökéletesnek látta, boldog volt.
-Az ember aki undorkodott másnapra tervezte a nagytakarítást, így a kis penészek egész éjszaka rettegtek. Azt kívánták bár sosem lenne többet reggel.
-Meghallotta ezt egy tündér s megkérdezte tőlük miért kívántak ilyet. A kis penész elmesélt neki mindent. A tündér erre azt mondta:
-- A világban mindennek oka van. Ti azért vagytok itt, hogy rendre és tisztaságra szoktassátok ezt az embert, mert ha elhanyagolja a környezetét, rendetlenséget, piszkot hagy maga után az azt jelenti, hogy a gondolatai sem tiszták. Miközben Titeket takarít eszébe fognak jutni azok a dolgok, melyeket a saját életéből, gondolataiból kell kitakarítania. Ti nagyon hasznosak vagytok, számos embernek segítettek már elgondolkodni, tisztán látni életüket.
-Nemcsak a penészek a többi kosz is hallotta ezt a házban és most már büszkén várták a reggelt. A kis penész is boldog volt, segített egy embernek.
-Lám egy kis penész is milyen hasznos, csak meg kell látnunk az okot még a koszban is.
+A történetek azoknak szólnak, akik még hisznek a képzelet erejében.
 
 </div>
 
-</section>
-
-<!-- ÚJ VERSEKET EZ ALÁ MÁSOLJ -->
-    <!-- VERS 3 -->
-
-<section class="poem repa">
-
-<h2>A répaágyás</h2>
-
-<div class="poem-content">
-
-Volt egyszer egy kert sokféle zöldséggel, gyümölccsel. Volt ott egy répaágyás is, tele répával.
-De ezek a répák naphosszat vitatkoztak, civódtak, hogy melyikük a legszebb, legfinomabb, legédesebb. Hangos volt az egész kert tőlük.
-Meghallották ezt a lármát a varjak is, kíváncsian figyeltek a kerítésről. Azt mondta a legidősebb, legbölcsebb varjú:
-Hallgassatok ide répák! Majd mi segítünk eldönteni a kérdést: rendezzünk répaversenyt!
-A répák helyeseltek: 
-- Igen-igen, legyen úgy!
-Illegve-billegve felvonultak a varjak előtt. Ki a fejét, ki a gyökerét rázta nagy igyekezetében. Miután mindegyik megmutatta magát, így szólt a legidősebb varjú:
-- Nem elég külső alapján ítélnünk. A győztes répa legyen finom is!
-Ezzel is egyet értettek a répák, így az ő beleegyezésükkel a varjak nagy lakomát csaptak a buta répákból, s nem győzték dicsérni azok ízét, zamatát!
-Látta ezt a többi zöldség, s azóta nem hangos a kert, mert hajtásról magra terjed a híre a pórul járt répáknak.
-
 </div>
-
-</section>
-        <!-- VERS 4 -->
-
-<section class="poem szolo">
-
-<h2>A szőlőhegy</h2>
-
-<div class="poem-content">
-
-Egyszer volt egy nagy hegy, egy alvó vulkán. Régen vidáman pöfékelt, ontotta a lávát, büszke volt vörös sörényére. Mára megfáradt kopasz öregúr lett, bánatosan tekintett a világba.
-Egy nap nagy sürgés-forgás támadt a lábánál. Emberek érkeztek, akik arról tárgyaltak kinek mi lesz a feladata, hogyan fogják megművelni a földet.
-A hegy nem értette mi folyik körülötte, hogy őt ekével szántsák? Tapodják nyakát, fenséges kobakját? Hallotta ezt a morgást egy kismadár. Így szólt a hegyhez:
-- Eddig azért zúgolódtál, mert kialudtál, nincs benned már élet. Tudod egyáltalán mi ellen morogsz?
-- Nem tudom, de nem is akarom! – mordult a hegy.
-- Azért én elmesélem. Ezek az emberek szőlőt telepítenek, a szőlőből bort készítenek, s amíg jó lesz a termés, itt mindig lesz élet! Soha többet nem fogsz unatkozni. Nagy szüreti mulatságokat tartanak majd, dalolnak, táncolnak. S megköszönik Neked a jó termést. 
-- Igazad van. Annyira el voltam foglalva a kezdeti kellemetlenségekkel, hogy nem tudtam örülni semminek. Pedig kifejezetten jól esik a szántás, ahogy vakargatják a hátamat. Változást szerettem volna, s mikor megkaptam nem örültem neki.
-Attól a naptól a hegy nagyon boldog volt, messze földön híres lett az itt termelt bor.
-
-</div>
-
-</section>
-    <!-- VERS 5 -->
-
-<section class="poem ceruza">
-
-<h2>A ceruza</h2>
-
-<div class="poem-content">
-
-Egyszer volt egy ceruza, égőpiros heggyel. Vidám gyerekkezek irányították, boldogan suhant a papíron. Rajzolt tüzet, almát, cseresznyét, lenyugvó napot, kipirult arcocskát.
-Ő volt a világ legboldogabb piros ceruzája. Mivel sokat rajzoltak vele, egyre kisebb és kisebb lett. Először észre sem vette mennyire megfogyatkozott, aztán hirtelen megijedt.
-- Mi lesz velem? El fogok tűnni? Soha többet nem rajzolhatok?
-Nagyon bánatos lett, örökké legurult az asztalról, kitört a hegye. Azt remélte így majd nem akarnak vele rajzolni a gyerekek, és akkor nem fog elfogyni. Nem akart eltűnni örökre.
-Egy napon olyan erősen elrugaszkodott az asztalról, hogy elgurult egész a kanapé alá, be a sarokba a porcicák és elhagyott tárgyak közé.
-Volt itt fél pár zokni, üveggolyó, egy cica farka és egy gyűrött papír.
-A ceruza úgy gondolta, majd itt berendezkedik, mostantól itt fog élni, ha nem talál rá senki, akkor megmarad. Igyekezett hát jószomszédi viszonyt kialakítani, megismerkedni mindenkivel. A zokni elmesélte, hogy fél éve van itt, egy Panni nevű kislány hagyta el őt, egy darabig kereste is, de nem sokáig bánkódott utána. Ez a zokninak nagyon rosszul esett, hiszen ő hűségesen melengette a kislány lábát. Az üveggolyó szeretett volna újra vidáman gurulni, de beragadt a porba, így itt vesztegel már egy hete. A cicafarok kényeskedve riszálta magát, szemmel láthatóan elégedetlen volt a sorsával.
-Hát ez nem túl vidám társaság, hogy fogok itt élni velük?
-Az első pár nap jól telt a ceruza számára, nyugodt volt, hogy itt nem eshet baja. De aztán elkezdett unatkozni. Hiányzott a hófehér papír, melyet ő töltött meg élettel. Hiányoztak a vidám gyerekkacajok, az elégedetten, dicsérően csengő felnőtt hangok, mellyel őt is elismerték. 
-Ahogy ezen tépelődött arra jött egy kisegér. És uramfia! Elkezdte rágcsálni, csócsálni a ceruzát. A ceruza kétségbe esetten sikoltozott, könyörgött az egérkének:
-- Ne bánts kérlek, előttem meg hosszú élet van, én alkotó művész vagyok, engem nem ehetsz meg!
-- De úgy viszket a fogacskám, muszáj rágcsálnom valamit. - mondta az egérke.
-- Ha elengedsz lerajzollak, Te leszel a hős egérke, aki megmentette egy ceruza életét.
-Hallotta ezt a gyűrött papír, aki eddig egy mukkot sem szólt. Felajánlotta a ceruzának, hogy rajta alkossa meg a nagy művét.
-- Rendben van – mondta az egérke – de ha nem tetszik a rajz, megeszlek!
-Nekilátott hát a ceruza, surrogott a papíron, az egér meg csak úgy düllesztette a mellkasát nagy igyekezetében, hogy minél peckesebben mutasson a képen. A ceruza nagyon élvezte, hogy újra rajzolhat, a papírnak is tetszett a dolog, mindketten azt csinálták amire születtek.
-Elkészült a mű. Az egérke nagyon elégedett volt, fő helyre rakta ki a papírt az egértanyán, csodájára jártak az egerek még a szomszéd házból is. A papír büszke volt magára, és hálásan hajbókolt a ceruzának, hogy értelmet adott az életének.
-Az egér megkegyelmezett a ceruzának, aki azt kérte, hogy húzza őt ki a kanapé szélére, hátha ott észreveszik a gyerekek és újra rajzolnak vele. Hiszen, ha ő el is fogy, rajzai örökké hirdetik majd tehetségét, és azt csinálhatja amit szeret.
-Az életben mindennek célja van, nem véletlenül születünk. Ha néha meg is ijedünk, tudjuk, hogy értékeset alkotunk, akárcsak egy pici ceruza.
-
-</div>
-
-</section>
-    <!-- VERS 6 -->
-
-<section class="poem anna">
-
-<h2>Durcás Anna</h2>
-
-<div class="poem-content">
-
-Egyszer volt egy kislány Durcás Anna volt a neve, mert folyton megsértődött valamin és bevágta a durcát. Arcocskáját pirosra fújta, szemöldöke összeszaladt homlokán. Nem kellett különösebb indok hozzá, ha valami nem tetszett neki, toppantott pici lábával, összefonta karjait és sértett képpel meredt a világra. Ilyenkor jobb volt elkerülni.
-Történt egyszer, hogy összetalálkozott Mosolygós Petivel és Szelíd Dáviddal. Persze nem tetszettek neki. Mosolygós Peti nagyot nevetett, mikor meglátta milyen arcot vág, csak úgy gurult a nevetéstől, Szelíd Dávid pedig kedvesen szólt hozzá. Bárhogy toppantott, bárhogy húzta az orrát, a fiúk akkor is mosolygósak, kedvesek maradtak vele, és nem hagyták magára. Nem volt ehhez hozzászokva Durcás Anna. Eddig mindenki menekült előle, ezek ketten pedig meg sem ijednek, de még csak el sem futnak!
-Mosolygós Peti fejen állva utánozta Anna arcocskáját mikor mérges, amin Anna akkorát nevetett, még a könnye is kicsordult. Önfeledten játszottak, kergetőztek, barátok lettek egy életre. Anna soha többet nem sértődött meg, mert ha nem tetszett neki valami, eszébe jutott mit csinált Peti, és ettől mindig nevethetnékje volt.
-Az életnek mindig van humoros oldala, akármilyen durcásan is nézünk rá. Érdemes ilyenkor tükörbe néznünk, akár fejen állva is!
-
-</div>
-
-</section>
-     <!-- VERS 7 -->
-
-<section class="poem taska">
-
-<h2>Varázstáska</h2>
-
-<div class="poem-content">
-
-Egyszer volt egy táska, hatalmas volt a bendője, sok minden elfért benne. Bárki belenyúlt mindig megtalálta amit keresett, anélkül, hogy belerakta volna. Varázstáska volt! Az évek során sokszor gazdát cserélt, mikor kinek volt rá szüksége, az emberek tovább adták. Egy nap egy kisfiúhoz került, akinek nagyon beteg volt az édesanyja. A kisfiú nem lelte örömét a táskában, hiszen ő csak azt szerette volna, ha édesanyja meggyógyul, ezt a kívánságot pedig hogy is teljesíthetné egy táska, még ha olyan varázstáska is. Mert még az orvosok sem tudtak gyógyszert anya betegségére.
-Félre tette hát a táskát, a szobája sarkába, s csaknem meg is feledkezett róla. De nem úgy a táska! Nagyon szeretett volna segíteni a kisfiúnak. Naphosszat törte a fejét, kutakodott magában mivel lehetne meggyógyítani a kisfiú mamáját. De nem találta a megoldást. 
-Azt mondta hát a fiúnak:
-- Gyere ugorj be, nézz körül rendesen, hátha találsz odabent egy olyan világot, ahol sohasem betegszenek meg az emberek, akkor oda elvihetnéd édesanyádat is.
-Tetszett az ötlet a fiúnak, így hát el is indult a táska belsejében. Rengeteg minden volt odabent, még laktak is a táskában, a táskalakó manók. Ők voltak azok, akik kitalálták az emberek gondolatait, és előre elkészítették azt, amit a táskában kerestek. A fiú elmesélte nekik nagy bánatát, hátha a manók tudnak segíteni. A manók azt mondták:
-- Vannak dolgok, amiknek meg kell történnie. Van, amin mi sem változtathatunk, de segíthetünk, hogy megőrizd az emlékét, annak akit szeretsz. Fogd ezt az üveggömböt, menj vissza édesanyádhoz tölts vele annyi időt amennyit csak tudsz, s az üveggömb mindig legyen a közeletekben. Mert minden amit az üveggömb lát, azt megőrzi emlékként, és a segítségével bármikor újraélheted. Ahányszor csak akarod!
-A kisfiú megköszönte a gömböt és hazament. Megfogadta a manók tanácsát és rengeteg időt töltött édesanyjával, sokat nevettek, játszottak, mókáztak, s az üveggömb szorgosan gyűjtötte a szép emlékeket. A kisfiú felnőtt, de ezt a pár napot örökre megőrizte, s minden este megnézte az üveggömbben. 
-Előfordul, hogy van, amin nem tudunk változtatni, bármennyire is szeretnénk, de az hogy hogyan éljük meg csak rajtunk áll.
-
-</div>
-
-</section>
-    <!-- VERS 8 -->
-
-<section class="poem mano">
-
-<h2>Az ígérgető manó</h2>
-
-<div class="poem-content">
-
-Egyszer volt egy manó, aki nem szeretett nemet mondani, így bárki kért tőle valamit, annak megígérte, hogy teljesíti, akkor is ha előre tudta, hogy nem fog menni. Egy idő után, már teljesíteni sem akarta a kéréseket, csak megígérte és aztán kuncogva figyelte a bosszús arcokat. Örömét lelte játékában.
-A csalódott emberek nagyon szomorúak voltak, elhatározták, hogy nem bíznak meg többet a manóban, és soha többet nem kérnek tőle semmit.
-Történt egyszer, hogy a manó nagyon szerette volna meglátogatni a rokonait. Szeretett volna szép ajándékot vinni nekik, de nem volt semmi ötlete. Törte a fejét, törte, de semmi nem jutott eszébe. Megkérdezte volna a többieket, de ők épp haragudtak rá a csínytevések miatt, így nem mert szólni hozzájuk. Lógatta az orrát naphosszat, így mászkált fel-alá. A többiek nem állták meg szó nélkül, megkérdezték mi baja. A manó elmesélte, mire ezt mondták:
-- Jaj, hát csak ez a baj! Gyere üljünk le és gondolkozzunk!
-Jobbnál jobb ötletek röppentek föl, a manó csak kapkodta a fejét. Végül közösen egy szobor mellett döntöttek. Nagy lett a sürgés-forgás, mindenki azon igyekezett, hogy minél szebb ajándékot készítsenek. 
-A szobor elkészült: egy manócsaládot ábrázolt, amint boldogan ölelik egymást.
-A manó nagyon meghatódott, és nagyon szégyellte magát, amiért így bánt a többiekkel. Megígérte, hogy ezután nemet fog mondani azokra a kérésekre, melyeket nem tud teljesíteni.
-Ha túlvállaljuk magunkat, az mindig rosszul sül el, és azt sem tudjuk elvégezni, ami tényleg a mi feladatunk.
-
-</div>
-
-</section>
-    <!-- VERS 9 -->
-
-<section class="poem doboz">
-
-<h2>A titkos doboz</h2>
-
-<div class="poem-content">
-
-Egyszer volt egy doboz. Titok volt benne. A doboz nagyon büszke volt magára, őrizte titkát, nem mutatta meg senkinek. Sokan keresték meg, hogy meggyőzzék árulja el titkát, nyissa ki a fedelét. De a doboz makacs volt, nem engedett. 
-Az évek multával patinás külseje megkopott, szép aranyos színe megfakult. Aki ránézett nem is gondolta volna, hogy bármi értékes lehet benne, az igazat megvallva már senki sem törődött vele, elmentek mellette. A dobozt ez sem zavarta, nem nyílt ki. Egy nap az emberek kidobták a szemétre, mert már olyan rossz állapotban volt, hogy használhatatlannak gondolták. Az eséstől a rozsdás fedél engedett, kinyílt, s a titok napvilágra került! De nem volt közönség hozzá, senki sem volt, akit érdekelt volna. A doboz rozsdásodott, elmállott, titka összekeveredett a szeméttel, kihunyt benne az élet. Kárba veszett és már sohasem tudjuk meg mi volt az. Pedig a doboz értéke pont a titokban rejlett!
-Hiába vagy értékes belül, ha nem mutatod meg a világnak.
-
-</div>
-
-</section>
-     <!-- VERS 10 -->
-
-<section class="poem ful">
-
-<h2>A fül</h2>
-
-<div class="poem-content">
-
-Egyszer volt egy fül. Egy kisfiú bal füle volt. A kisfiú nagyon rendetlen volt, örökké borsot tört mások orra alá, bosszantotta a felnőtteket, nem figyelt rájuk mikor megszidták. Ha rajtakapták a csínytevésen és próbáltak a lelkére beszélni, befogta a fülét és elszaladt.
-Elbújt egy bokor mögé. A fül nem értette a problémát, hiszen csupa jó dolgot mondtak a felnőttek, mért nem akarja akkor a kisfiú hallani?
-Próbált segíteni neki, mindent amit hallott visszhangzott a fiúnak, hátha meghallja végre.
-De ennek csak annyi lett az eredménye, hogy a fiú örökké vakarta, piszkálta a fülét, mert zavarta az állandó zúgás, mormogás. Szegény fül kisebesedett, begyulladt. Nagyon rosszul érezte magát, így már visszhangozni sem tudott, végül is a fiú elérte amit akart, csönd lett.
-Mikor nagyobb lett, már saját maga is belátta, hogy nem szabad bosszantania másokat, sőt segített az embereknek, akik nagyon hálásak voltak, mindig dicsérő szóval illették a fiút. Igen ám, de a fiú nem hallott ebből semmit. A csönd nem szűnt meg.  Nem hallotta a madarakat, nem hallotta édesanyja hangját, ahogy mosás közben dúdolgat, nem hallotta kedvenc sípja hangját, nem hallott semmit. Épp arra járt, ahol régebben mindig elbújt a felnőttek elöl. Leült az ismerős bokor alá, s eleredt a könnye. Nem tudta mitévő legyen. Eszébe jutott hogyan ült itt naphosszat, befogva a fülét, nem akart hallani semmit. Felismerte, hogy ezt az egészet ő akarta, hát talán változtathat is rajta:
-- Szeretnék újra hallani! Már nagyon megbántam a dolgot!- mondta
-Először nem történt semmi, aztán egy halk hangocska azt mondta:
-- Örülök, hogy visszajöttél. 
-A fiú hátrafordult kinek a hangját hallja. A bokor ölelésében egy fészek volt 5 fiókával és a mamájukkal. A madár így szólt:
-- Rég jártál erre, azóta kikeltek a fiókáim, meghallgatod milyen szépen énekelnek?
-És a fiókák elkezdtek csivitelni, beleadtak mindent, gyönyörű koncertet adtak, s a fiúnak örömkönnyek csurogtak arcán. Nagyon boldog volt, megköszönte a szép éneket és tovább indult, hogy felfedezze a világ és a saját hangját. 
-
-
-</div>
-
-</section>
-    <!-- VERS 11 -->
-
-<section class="poem hal">
-
-<h2>Értől az óceánig</h2>
-
-<div class="poem-content">
-
-Egyszer volt egy halacska. Sok-sok halacskával együtt született, a lassan csordogáló vízben. Nagyon jó dolga volt itt, naphosszat úszkáltak testvérkéivel. De ez a halacska nagyon kíváncsi volt, szerette volna tudni milyen a világ máshol, mi lenne ha tovább úszna a sodrással. Testvérkéi próbálták lebeszélni, kérlelték, hogy maradjon itt a biztonságos vízben.
-Egy-két napig maradt is, de csak nem bírta tovább, elköszönt mindenkitől és nekivágott a nagy víznek. 
-A meder egyre szélesebb lett, a víz egyre erősebb és mélyebb, elragadta, vitte a sodrás magával. Ha akart volna sem tudott volna visszafordulni, de a bátor halacska nem is szeretett volna. A patakból folyó lett, a folyó az óceánba folyt. Ilyet még nem is látott, mennyi víz, micsoda állatok, az egyik szinte átlátszó és hosszú csápok lógnak belőle, a másiknak éles foga és villogó szeme van. Egyik ámulatból a másikba esett a halacska, milyen izgalmas világba csöppent. Ezt a testvérkéimnek is látniuk kell!
-Pihent egy-két napot, aztán elindult visszafelé, de nagyon kellet csapkodnia uszonyaival, mert szembe úszott a sodrással. Sokkal tovább tartott az út, mint idefelé, sokszor meg kellett állnia pihenni. De végül hazaért. Testvérei nagyon örültek, faggatták mit látott, merre járt. 
-- Olyan csodát láttam, amit nektek is a saját szemetekkel kell látnotok! Gyertek velem, megmutatom.
-Azóta minden évben a kishalak elindulnak az óceán felé, le a sodrással akár csak a halacska, de mindig visszatérnek a többiekért. 
-Ha új dologgal találkozol, gondolj mindig arra, hogy valakinek el kell egyszer kezdenie, legyél Te az a bátor halacska!
-
-</div>
-
-</section>
-    <!-- VERS 12 -->
-
-<section class="poem nyul">
-
-<h2>A nyuszi füle</h2>
-
-<div class="poem-content">
-
-Egyszer volt egy erdő, benne sok-sok állat, akik békességben éltek együtt.
-Egy napon a róka odaállt az erdő tanácsa elé, nagy tisztelettel meghajolt és azt mondta:
-- Bölcs erdei tanács! Döntsetek ügyemben! Az a panaszom, hogy a nyuszinak túl nagy a füle, le kellene vágni!
-- Mért kellene levágni a nyuszi fülét? – mordult a tanács egyik tagja, a medve.
-- Mert sosem tudom elkapni, mindig meghallja a nagy füleivel, hogy jövök, és így én éhen maradok! Ez nem igazságos!
-Összedugták a fejüket a tanácstagok, márpedig igazságot kell szolgáltatni, hiszen az ő erdejük éppen erről híres. De nem tudtak dönteni, így elrendelték, járuljon elébük a nyúl is, mondja meg ő mit gondol erről. A szarka értesítette a nyulat, aki el is jött és így szólt:
-- Vágjátok le a róka lompos farkát! Ugyanis mindig azt hallom suhogni a fák között, ezért tudok elmenekülni előle! Ha nincs farka, nem csap zajt, és el tud kapni engem.
-Hát most már tényleg tanácstalan volt az erdő híres tanácsa. Mitévők legyenek?
-3 nap, 3 éjszaka tanakodtak, de nem tudtak kisütni semmit.
-- Menjünk biztosra! – mondta a farkas – vágjuk le a nyuszi fülét és a róka farkát is! 
-Helyeselt mindenki, az ötlet tetszett a tanácsnak. Nem úgy a rókának, aki féltette gyönyörű bundáját és ijedtében elszaladt, meg sem állt a negyedik erdőig, többet nem is látták errefelé.
-A nyuszi hazabandukolt, és hosszú fülét azóta is éberen hegyezi.
-Ne mások kárán akarjunk ügyeskedni, saját erőből boldoguljunk!
-
-
-</div>
-
-</section>
-     <!-- VERS 13 -->
-
-<section class="poem malnaes_szeder">
-
-<h2>A málna és a szeder</h2>
-
-<div class="poem-content">
-
-Egyszer volt egy erdei út, az út mentén málna és szederbokrok ültek. Kíváncsian figyelték a kirándulókat és kínálták finomabbnál-finomabb terméseiket.
-A málna úgy gondolta ő a sikeresebb, mert az ő termését mindig maradéktalanul elfogyasztják. Hencegett is ezzel a szeder előtt, jól kihúzta magát, hogy még magasabbnak is tűnjön, mert ő előbbre való, mint a szeder.
-A szeder nem kesergett ezen a pökhendiségen, bölcsen hallgatott. 
-Másnap újra kirándulók jártak arra, mivel a málnabokor üres volt, így a szeder felé fordultak. Dicsérték ízét-zamatát, nagyon elégedettek voltak vele. Mivel kicsit savanykás jól oltotta szomjukat, kevesebb is elég belőle, így még mindig maradt a bokron. Estefelé mikor elcsöndesedett az erdő előjöttek az erdei állatok és jóízűen befalatozták a maradék termést. Boldog volt a szederbokor, mert sok mindenkivel megoszthatta kincseit, nem úgy a málnabokor, ki hamar szétszórta értékeit, s nem maradt, amit a világnak mutathat.
-A következő nyáron szövevényesebbre nőtt és bent a bokor mélyén is megőrzött pár málnát, hogy jusson az állatoknak is, azóta nőnek így a málnabokrok, hát ne bosszankodj, ha nem éred el a málnát!
-
-</div>
-
-</section>
-    <!-- VERS 14 -->
-
-<section class="poem gomba">
-
-<h2>A rohangáló gomba</h2>
-
-<div class="poem-content">
-
-Egyszer volt egy gomba, aki fel-alá rohangált az erdőben. Sose tudta hova kapjon, mit csináljon. Őrlődött a tegnap és a holnap között. Így mindig el volt maradva, és fejvesztve futkosott. Bántotta az amit, a kis szömörce mondott, és különben is mi lesz ha holnap nem esik az eső? Vagy ha esik, akkor mi lesz? Rengeteg fejtörést okozott neki a dolog, amitől egyre mérgesebb és mérgesebb lett, a végén már paprika piros volt a kalapja. Nem szólt senkihez, nem volt rá ideje. Történt egyszer, hogy előre rohant, de hátra figyelt és nekiment a tölgyfának. Aki jót mulatott a dolgon, mert hát ki látott már ilyet, hogy valaki előre rohan, de hátrafelé néz!?  A gomba rettentő mérges lett:
-- Mit képzelsz, hé! Engem nem lehet kinevetni! – azzal rugdosni kezdte a tölgyet.
-Aki ezen is jót mulatott, mert csiklandozta a gyökereit.  A gomba a nagy kapálózásban belefúródott a földbe, és abban a pillanatban gyökeret is vert a tölgyfa alatt. Húzta-rángatta magát, hogy kiszabaduljon, de már nem lehetett.
-- Hogy fogom most elvégezni a dolgaimat? – kérdezte.
-- Sose bánkódj! – mondta a tölgy - Amit el kell intézned, az úgyis megtalál, a többi dolgon meg feleslegesen rágódtál. Azzal eleredt az eső, de a gombát nem a közvetlen eső érte, csak ami a tölgy levelein átszivárgott, így a vihar sem zilálta meg. A nap ellen is kellemes volt az árnyék, és jó volt végre megpihenni egy kicsit, a hely tökéletesnek bizonyult. A sok mérgelődéstől piros kalapja megmaradt figyelmeztetésnek, de egyébként békés gomba lett, barátságot kötött a bölcs tölggyel is.
-És tényleg úgy lett, ahogy a tölgy mondta, mikor híre ment az erdőben, hogy mi történt mindenki meglátogatta a gombát, még a szömörcével is tudott beszélni. Láss csodát! Megoldódtak az elintézetlen ügyek.
-
-</div>
-
-</section>
-    <!-- VERS 15 -->
-
-<section class="poem golyo">
-
-<h2>Az elveszett golyó</h2>
-
-<div class="poem-content">
-
-Egyszer volt egy golyó, amelyik elveszett. Apáról-fiúra szállt a monda, hogy van egy golyó, melyet ha valaki megtalál nagyon szerencsés és boldog lesz. Akik valaha látták ezt a golyót, már nem éltek, csak a legendája létezett. De évről-évre akadt egy-egy állat, aki úgy gondolta nekivág a nagyvilágnak és megkeresi, erre teszi fel hátralévő életét.
-Egyik éven egy fiatal teknős döntött így, apjától hallotta a csodálatos történetet, és már másnap elindult a keresésére.
-Szülei marasztalták, de megállíthatatlan volt. Egész életében vándorolt, kérdezősködött, de a golyót nem találta. Már nagyon fáradt volt, alig bírta emelni lábait, nagyon lassan haladt. Egyik nap megpihent egy forrásnál, ahol egy ős öreg teknős ült. Szóba elegyedtek, és a teknős elmesélt mindent. Elsorolta milyen helyeken járt, mennyi állattal beszélt már.
-- És ezek közül az állatok közül, hány lett a barátod?
-- Egy sem. – válaszolta a teknős.
-- És a helyeken ahol jártál, körülnéztél? Megcsodáltad szépségüket?
-- Nem néztem körül sehol, csak a golyót kerestem.
-- Mennyi helyen jártál, mennyi élményben, boldogságban lehetett volna részed, milyen sok barátot szerezhettél volna. – mondta az öreg teknős.
-- Igazad van. Milyen boldog életem lehetett volna, ha utam során észre vettem volna mi van körülöttem, de annyira elvakultan kerestem.
-- Most már megérdemled a golyót, itt van nálam, én őriztem eddig, most neked adom.
-- Nincs már rá szükségem, tudom mi okoz boldogságot az életben, ehhez már nem kell a golyó.
-- Rendben, arra kérlek őrizd meg és add tovább annak, akit érdemesnek találsz rá, annak akinek nincs szüksége a golyóra a boldogsághoz.
-Elvakultan keressük a boldogságot egész életünkben, és gyakran elmegyünk mellette, anélkül, hogy észre vennénk.
-
-</div>
-
-</section>
-    <!-- VERS 16 -->
-
-<section class="poem katica">
-
-<h2>A katica pettyei</h2>
-
-<div class="poem-content">
-
-Egyszer volt egy katica, akinek nem voltak pettyei. Így született. Mindenki megrettent mikor meglátta, szerencsétlen dolognak tartották. Nem jósoltak túl nagy jövőt neki.
-- Én belül hordom a pöttyeimet, ugyanolyan katica vagyok, mint ti!
-De a többiek nem értettek vele egyet, eltávolodtak tőle, nem akartak vele beszélni, mert más volt, mint ők.
-Szegény katica nagyon bánatos volt, talán jobb is ha nem maradok itt, úgysem látnak itt szívesen. Elindult hát orrát lógatva. Kiért az ismerős rétről, ment tovább erdőkön át.
-Egy nap eljutott egy nagy hegyhez, melynek tetején felhőpamacsok ültek. Körben gyönyörű virágos rétek voltak, melyek felkúsztak a hegy oldalába is. 
-- Megnézem mi van odafönt. – gondolta.
-Útközben ámult a virágok sokszínűségén, formáján, illatán. Ilyen sokfélét még nem is látott.
-Ahogy haladt felfelé egyre hidegebb lett, szárnyai már dermedtek voltak a hidegtől, de nem adta fel, erősen csapkodott velük, hogy ne fagyjanak meg. A hegy tetejét hó fedte, de volt fent egy barlang, melyben hívogató tűz égett. A katica nem volt rest, berepült a barlangba, odakucorodott a tűzhöz és melengette szárnyait. Annyira el volt foglalva a tűzzel, hogy észre sem vette a barlangban ülő embert. A tűz másik oldalán törökülésben ült, csukott szemmel. Odarepült hozzá a katica és a kezére telepedett. Nem akarta zavarni, de kíváncsi volt mit keres valaki idefent, egyedül.
-- Mikor berepültél a barlangba, már akkor éreztem, hogy itt vagy. Örülök, hogy jöttél.
-- Ki vagy Te és mért ülsz itt egyedül?
-- Nem vagyok egyedül, itt vagy velem. El se hiszed hányan járnak erre, akik nem találják - helyüket a világban. Mesélj, Te mért jöttél?
-- Nézd a hátamat, nincsenek pettyeim. A többiek elüldöztek otthonról. Azt mondták baljóslatú, hogy így születtem. Nem akartak bajt a fejükre.
-- Te mit gondolsz erről?
-- Én úgy érzem, ugyanolyan katica vagyok, mint ők és nagyon rosszul esett, hogy elküldtek.
-- Szerinted mért nincsenek pettyeid?
-- Talán nem is ez a lényeg. Talán az a lényeg, hogy hogyan viselem a hiányát. 
-- És hogyan viseled?
-- Hagytam, hogy elüldözzenek, annak ellenére, hogy tudtam nincs igazuk. Ilyen messzire kellett jönnöm, hogy megértsem ezt?! 
-- Idefent a csöndben, ahol nem halljuk mások hangját, meghalljuk a sajátunkat, mely a legbölcsebb útmutatónk. 
-- Köszönöm, hogy meghallgattál, hazamegyek a többiekhez, ott van a helyem. Katicának születtem, ha pettyek nélkül is. 
-Ne hagyjuk, hogy mások véleménye befolyásoljon minket, ha nem is szándékosan, de gyakran letérítenek utunkról.
-
-
-</div>
-
-</section>
-    <!-- VERS 17 -->
-
-<section class="poem suni">
-
-<h2>A süni kabátja</h2>
-
-<div class="poem-content">
-
-Egy szép napon az erdőben született három süni. Az egyik éles eszű volt, a másik mindennél jobban szerette a hasát, a harmadik pedig rettentően kíváncsi volt. Ez a kíváncsi süngyerek mindenhová odadugta pici orrocskáját, és persze rendre bajba került.
-Egy nap mikor élelmet kerestek szüleikkel hangokat hallottak a tisztásról. A szülők nyomban elbújtatták a kicsiket, de a sünit nem hagyta nyugodni a gondolat, szerette volna megtudni kitől származik ez a fura, eddig ismeretlen hang. Mikor a többiek elaludtak kilopakodott a rejtekhelyről és a tisztás felé indult. 
-A tisztáson emberek piknikeztek, óriásiak voltak a sünihez képest, de félelmét legyőzte kíváncsisága és tovább ment. Megszaglászta a pokrócot, az elemózsiát, mely nagyon hívogató volt. De ekkor észrevette őt egy kisfiú.
-- Anya, anya! Nézd egy süni, jaj de aranyos, megtarthatom???
-- Tényleg nagyon aranyos, nem bánom hazavihetjük, de neked kell gondoskodnod róla! Tegyük egy dobozba, nehogy megszúrjon.
-Azzal hazavitték a sünit. A süngyerek nagyon megijedt, sötét volt a dobozban, de kapott enni, és mivel már nagyon éhes volt, ez lefoglalta őt.
-Kis idő múlva a doboz elkezdett hánykolódni, majd letették, és világos lett, bántóan vakító. Mikor a süni szeme hozzászokott a fényhez egy szobában találta magát. Ez a kisfiú szobája volt, tele játékokkal, vidám, színes dolgokkal, amilyeneket a süni még sosem látott.
-Hamar barátok lettek, sokat játszottak együtt. A süni nőni kezdett és hamarosan puha gyerek tüskéi helyett, erős-szúrós tüskék növekedtek. Az önfeledt játék így abbamaradt, mert a kisfiú ujjai már ki sem látszottak a rengeteg kötéstől, a süni akaratán kívül össze-vissza szurkálta őt.
-Tanakodtak mitévők legyenek. A kisfiú nem akarta elengedni a sünit, minden áron magánál akarta tartani, így kitalálta, hogy ki kellene húzni a tüskéket, akkor újra játszhatnának együtt.
-A süni megriadt, hiszen a tüskéi az ő ékessége, hogyan is válhatna meg tőlük.
-De a fiú nem kérdezte meg, már szaladt is a csipeszért, lefogta a sünit és kihúzgálta tüskéit.
-Hiába sírt, kapálózott, sokkal kisebb és gyengébb volt a fiúnál.
-Mikor végzett örömmel buzdította őt játékra a fiú, de a süninek nem volt kedve többet játszani. Hiába simogatta naphosszat barátja, sosem lett olyan mint volt. Örökké szomorúság ült szemében. Látta ezt a fiú és nagyon megbánta amit tett.
-Kora reggel berakta az ismerős dobozba a sünit és visszavitte a tisztásra, ahol találta, hátha a többi sün meg tudja vigasztalni. A süni napokig bujkált, nem mert családja elé kerülni szégyenében. De megtalálták lábnyomát, követték és boldogan ölelték elveszettnek hitt testvérüket a sünök. Kérték mesélje el mi történt. A süni elmondott mindent, hogy sodorta bajba kíváncsisága, hogy lettek barátok és a szörnyűséget is, ami utána történt.
-Nem hagyták ezt annyiban a többiek, riasztották az erdő hírvivőjét, a szarkát, s nagy titokban ügyködtek egy meglepetésen.
-Az erdő összes állata elhozta azt, ami a számára a legszebb, legértékesebb és abból varrtak kabátkát a süninek. Hát ilyen csudát még nem látott az erdő! Volt ebben aranyszál, csigaház, színes madártoll, és még sok minden. Ez volt a leggyönyörűbb kabátka az erdőben, a süni nagyon büszkén viselte, még alvásnál sem vette le! 
-Ha egy kapcsolat már túlnőtt rajtad, ne akard megváltoztatni a másikat, ne ragaszkodj hozzá megfojtva őt, hanem engedd el. 
-
-</div>
-
-</section>
-     <!-- VERS 18 -->
-
-<section class="poem ujj">
-
-<h2>Ujj Péter</h2>
-
-<div class="poem-content">
-
-Egyszer volt egy ember, aki szakács volt. Nagyon jól főzött, az emberek szerették a főztjét.
-A középső ujját Péternek hívták. Rakoncátlan egy ujj volt, a szakács gyakran megsebesítette, mert az ujj örökké ficánkolt. Nem volt elégedett a sorsával.
-- Miért én vagyok középen? Miért itt? Ennek az embernek a kezén? – zúgolódott.
-A többi ujj nem értette a problémát, így segíteni sem tudtak neki.
-Ujj Péter úgy érezte senki sem érti meg őt. El akart hát menni világot látni, de a szakács nélkül nem mehetett. Törte a fejét napokig mi lenne a megoldás. Megfordult a fejében a nagykés, amivel a szakács aprítani szokott, de ezt a kést ő maga is fogta, mivel a jobb kéz középső ujja volt, s a szakács jobb kezes. 
-Történt egyszer, hogy szakácsinas érkezett a konyhára, egy fiatal fiú. Nagyon ügyetlen volt, de az ujjai hosszúak, kecsesek. Az inas balkezes volt, a jobb középső ujját folyton megvágta. Kapott az alkalmon Ujj Péter megkérdezte nem cserélnének-e, hátha az ügyetlen fiú levágná őt mehetne világot látni és a szegény középső ujj sem szenvedne tovább.
-Mikor alkalom adódott megkérdezte a középső ujjat:
-- Miért tűröd a sorsodat, hogy folyton megsebesít ez az ember?
-- Valaha ember voltam, és az összes sebet ami most rajtam van én magam ejtettem ezen a fiún.
-- Nem akarsz cserélni velem? Itt nyugtod lesz végre.
-- A szakács kezén ugyanez történne velem, a fiú ott is megtalálna, a sorsunk elöl hiába menekülünk. Neked mi dolgod a szakáccsal?
-Ujj Péter gondolkodni kezdett, ebből a szempontból sosem nézte a dolgot. Eszébe jutott egy nyári nap, mikor vidáman szaladgált egy fiúval, akit nagyon szeretett. Megígérték egymásnak, hogy sosem válnak el. Felnézett és rájött, hogy a fiú a szakács volt. Így megbékélt a sorsával, azóta is együtt csinálnak mindent: főznek, sütnek az embereknek. Ezentúl segít a szakácsnak, nem gáncsoskodik. Ő lett a világ legboldogabb középső ujja.
-Ki nem küzd sorsa ellen, hanem megbékél azzal, boldog lesz mert nem vágyik másra.
-
-
-</div>
-
-</section>
-    <!-- VERS 19 -->
-
-<section class="poem eger">
-
-<h2>A bátor kisegér</h2>
-
-<div class="poem-content">
-
-Zizzen a levegő, alig hallható nesz az avaron, mégis több száz szív egyszerre dobog, lüktet a cél felé. Apró dolga ez a világnak, talán nem is számot adó, de kik benne vannak azoknak az élet maga. 
-Gyors szimatolás, bajuszok rezzenek, minden rendben a hajnali csendben. Elöl ügetek, érzéssel a cél felé, tudom hogy ott van az erdőn túl, a hegy felé. Nem láttam még csak álmaimban, a lábam visz, mögöttem a többiek, követnek bármerre cikázzak is.  Ritkul az erdő, nem véd tovább, de szemben kivillan a hegy, mögötte a nap kukucskál, várja érkezésünket.
-Meggyorsítom lépteimet, közel a cél, felfelé nézek, s majdnem a szakadékba lépek. Micsoda fricska, már itt vagyok, már látom, mit álmomban! Már megérkeztem, és mégis! Messze vagyok, nagyon messze. Messzebb, mint eddig! A kétségbeesés hullámai görögnek lefelé. Ennyi! Mindenki engem néz. Várják, hogy merre tovább, ez a vég. 
-Behunyom szemem, s leugranék. De ott a híd, már rajta csillan a fény. A nap játékosan mosolyog sima felületén, túlért a hegyen, nem érti miért csodálkozok, hogy túléltem én. Mögöttem kiáltások: - Micsoda bátor egér!  - Csak bennem somolyog a bűntudat, azt hiszik jobban féltek, mint én.
-De számít-e, hiszen itt vagyunk, biztonságban, az új otthonunk.  Mégis gondolatban visszavágyom oda, hol hős voltam valaha! 
-
-</div>
-
-</section>
-    <!-- VERS 20 -->
-
-<section class="poem segitseg">
-
-<h2>Segítség</h2>
-
-<div class="poem-content">
-
-Mindenki életében előfordul, hogy segítségre szorul. Igen ám, de kitől és hogyan kérjünk?
-Kisebb problémák, betegségek esetén a törpéket hívd segítségül, de mindig vigyél magaddal valami finom falatot, cserébe a segítségért. A legjobb sűrű tölgyerdőben próbálkozni, válassz ki egy idős, szimpatikus tölgyfát, állj elé és mond el a kérésedet, aztán csak várj.
-Ha nagyobb a baj, a koboldokat hívd! Szintén egy erdőben ülj le meditálni, de ne azért, mert elő akarod csalogatni őket, mert ezt megérzik és csak azért sem jönnek elő. A koboldok makacsok, sok türelem kell hozzájuk! Csak ülj ott, engedd el magad és várj. Biztos lehetsz benne, hogy próbára tesznek. Ha elég türelmes vagy eléd áll egy pökhendi kobold, de ne szegje kedvedet a modora:
-Ugyan mért segítenék neked? Mi közöm a problémádhoz?
-Ilyen és ehhez hasonló dolgokat fog a fejedhez vágni, de te ne kételkedj, csak tisztelettel és végtelen türelemmel tarts ki amellett, hogy ők segíthetnek neked. És ha mindezen próbákat kiálltad, akkor jön elő az a kobold, aki segíteni fog. A tenyeredbe helyez egy követ, mely mintha izzana, ragyogna és érezni fogod, hogy energiája eggyé válik veled, melyet használhatsz majd gyógyításra, az adott probléma megoldására. Ha már ismernek és bíznak benned, olyan követ kapsz, melyet hátralevő életedben bármikor használhatsz, nem csak egyszeri alkalommal. Viszonzásul pénzérmét illik adni!
-Ha már nagyon kétségbe estél, és úgy érzed semmi sem segít, akkor hívd a tündéreket. Csak suttogd el kívánságod, és ők segítenek. Mindig kételkedés nélkül, kellő tisztelettel fordulj hozzájuk! És csak végszükség esetén!
-Egyre kevesebb az erdő, egyre kevésbé emlékszünk a régi dolgokra, szövetségekre. Egyre nehezebb kapcsolatot teremteni velük, de mindig gondolj arra, ha te is feladod, ki marad?!
-Ne féljetek álmodni, meséket olvasni és főleg ne féljetek segítséget kérni!
-Mese ízű szép álmokat mindenkinek!  
-
-</div>
-
-</section>
-
-
-
-
 
 
 </main>
-
+        
+</div>
 <footer>
 
-© 2026
+© Simon Annamária
 
+    
 </footer>
+        
 
+    
 </body>
 </html>
